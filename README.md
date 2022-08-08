@@ -10,6 +10,9 @@
 /path/to/Yaba $ sudo docker-compose up
 ```
 
+HTML: < http://localhost:8000/>
+PHP: <http://localhost:8001/>
+
 ### 1 - hello world
 
 hello world
