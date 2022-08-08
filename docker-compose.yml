@@ -3,12 +3,12 @@ services:
   html:
     image: httpd:2.4.54
     ports:
-      - 8080:80
+      - 8000:80
     volumes: 
         - ./html:/usr/local/apache2/htdocs/
   php:
     image: php:apache
     ports:
-      - 8081:80
+      - 8001:80
     volumes: 
         - ./php:/var/www/html
