@@ -6,11 +6,13 @@
 ## 起動方法
 
 ```txt
-/path/to/Yaba $ sudo service docker start
-/path/to/Yaba $ sudo docker-compose up
+sudo service docker start
+git clone git@github.com:y0d3n/Yaba.git
+cd Yaba
+sudo docker-compose up
 ```
 
-HTML: <http://localhost:8000/>
+HTML: <http://localhost:8000/>  
 PHP: <http://localhost:8001/>
 
 ### 1 - hello world
