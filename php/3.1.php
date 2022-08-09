@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    ようこそ。
+    ようこそ
     <?php
     echo $_GET["username"] . "さん。";
     ?>
